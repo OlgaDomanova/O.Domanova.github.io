@@ -1,0 +1,81 @@
+@keyframes Anima_dots
+{
+    from { background: url('dots_slide.png') 58px 0; }
+    to { background: url('dots_slide.png') 105px 0; }
+}
+
+@keyframes anim_titles {
+       0% {
+        opacity: 0;
+     }
+       25% {
+        opacity: 1;
+     }
+       33% {
+        opacity: 1;
+     }
+       50% {
+        opacity: 1;
+     }
+       65% {
+        opacity: 1;
+     }
+       75% {
+        opacity: 1;
+     }
+        100% {
+        opacity: 0;
+    }
+}
+
+@keyframes anim_slides {
+      0% {
+        opacity: 0;
+     }
+       25% {
+        opacity: 1;
+     }
+        33% {
+        opacity: 1;
+     }
+       50% {
+        opacity: 1;
+     }
+       65% {
+        opacity: 1;
+     }
+       75% {
+        opacity: 1;
+     }
+        100% {
+        opacity: 0;
+    }
+}
+
+@keyframes text_cont {
+        0% {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+       }
+       100% {
+       opacity: 1;
+       visibility: visible;
+       -webkit-transform: none;
+       transform: none;
+       }
+}
+
+@keyframes staffs {
+    from {
+        transform: scale(1);
+    }
+	50% {transform: scale(1.1);}
+    to {
+        transform: scale(1);
+    }
+}
+
+
+

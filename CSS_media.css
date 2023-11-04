@@ -1,0 +1,434 @@
+/* медиа запросы */
+
+
+@media only all and (max-width: 60em) {
+
+  .header1 {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-left: 10px; 
+  }
+
+  .header1-left, .header1-center, .header1-right {
+    flex: 100% 1 1;
+  }
+  
+  .Menu_container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #232323;
+  }
+
+  .Menu {
+    justify-content: flex-start;
+    padding-left: 60px;
+    padding-top: 30px;
+  }
+
+  .Menu1 .Kiddos {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    color: white !Important;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  li a {
+    color: white !Important;
+  }
+
+  div.text-1 {
+    left: 30%; 
+  }
+
+  div.text-2 {
+    left: 22%;
+    top: 22%;
+  }
+
+  .button_slide {
+    position: absolute;
+    margin: 0 auto;
+    left: 44%;
+    bottom: 100px;
+  }
+
+  .dots_slide {
+    position: absolute
+    margin: 0 auto;
+    left: 2%;
+    right: 0;
+  }
+
+  .text-1 p, .text-2 p {
+    font-size: 45px;
+    font-weight: 800;
+    white-space: normal;
+    text-align: center !Important;
+ }
+
+  .slider-menu {
+    flex-direction: column;
+  }
+
+  .slider-menu1, .slider-menu2, .slider-menu3, .slider-menu4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Content-container {
+    width: 80%;
+  }
+
+  .Content {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Content-1  {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .Content-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+  }
+
+  .Advant {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .Adv-1, .Adv-2, .Adv-3, .Adv-4, .Adv-5, .Adv-6 {
+    width: 100%;
+  }
+
+  .text-adv {
+    width: 100%;
+  }
+
+  .Content_manners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .Manners_text {
+    flex: 100% 0 0;
+    max-width: 100%;
+  }
+  
+  .Manners_button {
+    flex: 100% 0 0;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .Teacher_content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  .teacher1_content, .teacher2_content, .teacher3_content, .teacher4_content, .teacher5_content, .teacher6_content, .teacher7_content, .teacher8_content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .img1_courses, .img2_courses, .img3_courses, .img4_courses, .img5_courses, .img6_courses {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+  }
+
+  .text1_courses, .text2_courses, .text3_courses, .text4_courses, .text5_courses, .text6_courses {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .Pricing_content {
+    max-width: 50em;
+  }
+
+  .pricing_1, .pricing_2, .pricing_3, .pricing_4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  #Pencils {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .number {
+    font-size: 40px;
+  }
+
+  .Form_content {
+    width: 100%;
+    margin: 0 !Important;
+  }
+
+  .Form_1, .Form_2, .Form_3 {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .input_1, .input_2, .input_3, .input_4, .input_5, .input_6 {
+    position: relative;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .Gallery_content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  .Gallery_1, .Gallery_2, .Gallery_3, .Gallery_4 {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+
+  .footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .footer_1, .footer_2, .footer_3, .footer_4, .footer5 {
+    flex: 0 0 50%;
+    max-width: 50%;    
+  }
+
+  .Map {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .Map_1, .Map_2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Contact {
+    display: flex;
+    flex-wrap: wrap;    
+    max-width: 100%;    
+  }
+
+  .Contact_1, .Contact_2, .Contact_3, .Contact_4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media only all and (max-width: 40em) {
+
+  .Menu2 {
+    flex-direction: column;
+  }
+
+  .Menu {
+    padding-bottom: 30px;
+  }
+
+  ul {
+   flex-direction: column;
+   margin-top: 0;
+   margin-left: 0;
+  }
+
+  li {
+    padding: 0;
+  }
+
+  .Menu {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+  }
+
+  div.text-1 {
+    left: 18%;
+    top: 27%;    
+  }
+
+  div.text-2 {
+    left: 13%;   
+  }
+
+  .button_slide {
+    position: absolute;
+    margin: 0 auto;
+    left: 37%;
+    bottom: 100px;
+  }
+
+  .slider-menu {
+    flex-direction: column;
+  }
+
+  .slider-menu1, .slider-menu2, .slider-menu3, .slider-menu4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Content-container {
+    width: 100%;
+  }
+
+  .Content {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Content-1  {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .Content-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+    margin-bottom: 3rem;
+  }
+
+  .Advant {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .Adv-1, .Adv-2, .Adv-3, .Adv-4, .Adv-5, .Adv-6 {
+    width: 100%;
+  }
+
+  .text-adv {
+    width: 100%;
+  }
+
+  .Content_manners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .Manners_text {
+    flex: 100% 0 0;
+    max-width: 100%;
+  }
+  
+  .Manners_button {
+    flex: 100% 0 0;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .Teacher_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .teacher1_content, .teacher2_content, .teacher3_content, .teacher4_content, .teacher5_content, .teacher6_content, .teacher7_content, .teacher8_content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .Courses_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .courses1_content, .courses2_content, .courses3_content, .courses4_content, .courses5_content, .courses6_content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .img1_courses, .img2_courses, .img3_courses, .img4_courses, .img5_courses, .img6_courses {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+  }
+
+  #Pencils {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .number {
+    font-size: 40px;
+  }
+
+  .pricing_1, .pricing_2, .pricing_3, .pricing_4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Form_table {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .Form_container {
+    background-image: none;
+  }
+
+  .Gallery_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .Gallery_1, .Gallery_2, .Gallery_3, .Gallery_4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footer_1, .footer_2, .footer_3, .footer_4, .footer5 {
+    flex: 0 0 100%;
+    max-width: 100%;    
+  }
+
+  .Contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+  }
+
+  .Contact_1, .Contact_2, .Contact_3, .Contact_4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
